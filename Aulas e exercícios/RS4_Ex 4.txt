@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main() 
+{
+int *c, v;
+c = &v;
+v = 25;
+*c *= 4;
+printf( "%d\n", v );
+return 0;
+}
+
+base           Nome da               Tipo da               Conteudo
+(decimal)      variavel              Variavel           (base decimal)
+      
+2258544           c                    int                 2258548
+2258548           v                    int                   100

@@ -1,0 +1,3 @@
+Apontadores são variáveis que contém em seus valores endereços de memória.
+Enquanto uma variável normal contém um valor, um apontador contém o endereço
+de uma variável que por sua vez contém um valor. 

@@ -1,0 +1,7 @@
+int *p, x;
+p = &x;
+x = 10;
+
+Qual a relação que se pode estabelecer entre p, *p, &x e x?
+
+p vai receber o valor de endereço de memória de x e *p vai o valor da variavel x.

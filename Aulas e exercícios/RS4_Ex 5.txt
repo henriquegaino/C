@@ -1,0 +1,22 @@
+#include <stdio.h>
+int main() {
+int a;
+char *pt, ch1, ch2;
+double v = 4.0;
+a = 5;
+ch1 = 'R';
+pt = &ch1;
+ch2 = *pt;
+printf( "%f", v + 8.3 );
+v = (4*a) + ((double)ch1);
+return 0;
+}
+ 
+   Endereço             Conteudo           Nome da          Tipo da
+(base decimal)       (base decimal)        Variavel         Variavel
+
+1326864                    5                  a               int
+1326868                 1326872               pt              char
+1326872                    82                 ch1             char
+1326876                    82                 ch2             char
+1326880                   102                 v               double
